@@ -54,9 +54,6 @@ class GridItem extends React.Component {
                             position: relative;
                             width: 100%;
                             height: 100%;
-                            background: #EEE;
-                            border-radius: 5px;
-                            border: 1px solid ghostwhite;
                             overflow: hidden;
                             z-index: 1;
                             animation: ${highlight ? "3s" : "0s"} ease-in-out 0s 1 animate-opacity;
@@ -76,8 +73,6 @@ class GridItem extends React.Component {
                             width: 100%;
                             height: auto;
                             margin: 0 !important;
-                            border-radius: 5px;
-                            border: 1px solid gray;
                             transition: 0.2s ease-in-out;
                             z-index: 2;
                             opacity: 1;
